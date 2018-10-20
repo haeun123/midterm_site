@@ -1,0 +1,149 @@
+body {
+	font-family: helvetica;
+	margin: 0;
+	padding-top: 0;
+}
+
+header {
+	background-color: rgba(255,255,255,0.7);
+	display: flex;
+	align-items: center;
+	z-index: 1;
+	width: 100%;
+	height: 70px;
+	position: fixed;
+}
+
+
+#navlist {
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+	align-items: center;
+	list-style-position: inside;
+	list-style-type: none;
+}
+
+.navitem {
+	text-decoration: none;
+	text-align: center;
+}
+
+.navitem a:link {
+	color: #484848;
+	text-decoration: none;
+}
+
+.navitem a:visited {
+	color: #03C;
+	text-decoration: none;
+}
+
+.navitem a:hover {
+	color: #F60;
+	text-decoration: underline;
+}
+
+.navitem a:active {
+	color: #6C0;
+	text-decoration: none;
+}
+
+
+#main-content {
+	padding-bottom: 60px;
+}
+
+#banner {
+	background-image: url("../images/oakland.jpg");
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 450px;
+	color: #FFFFFF;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+}
+
+#banner-text {
+	background-color: rgba(0,0,0,0.3);
+	padding: 10px;
+}
+
+#banner h1 {
+	font-size: 5rem;
+	margin: 0;
+	padding-bottom: 15px;
+}
+
+#banner span {
+	font-size: 2.3rem;
+	font-weight: bold;
+	color: #fff45e;
+}
+
+#about {
+	margin-top: 30px;
+}
+
+#about p {
+	color: #455163;
+	font-size: 1.2rem;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+footer {
+	padding-top: 20px;
+	width: 100%;
+	height: 70px;
+	background-color: rgba(82, 105, 142, 0.5);
+	color: white;
+	margin-bottom: 0;
+}
+
+#footer-list {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	list-style-position: inside;
+	list-style-type: none;
+}
+
+.footer-item {
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+#email-link a:link {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#email-link a:visited {
+	color: #03C;
+	text-decoration: none;
+}
+
+#email-link a:hover {
+	color: #F60;
+	text-decoration: underline;
+}
+
+#email-link a:active {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
