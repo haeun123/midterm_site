@@ -95,7 +95,45 @@ header {
 	margin-right: 20%;
 }
 
+#info {
+	margin-top: 50px;
+	margin-bottom: 60px;
+	color: #455163;
+	font-size: 1.2rem;
+	margin-left: 20%;
+	margin-right: 20%;
+}
 
+.image-container {
+	display; flex;
+	justify-content: center;
+	margin-top: 50px;
+	width: 100%;
+	overflow: hidden;
+}
+
+.image-container img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+
+h5 {
+	margin: 5px;
+	display: block;
+}
+
+#cathy {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 40px;
+	overflow: hidden;
+}
+
+#cathy img {
+	width: 50%;
+}
 
 /* styles for footer */
 
